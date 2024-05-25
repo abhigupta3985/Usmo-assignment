@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umso</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            align-items: center;
+            background-color: #111;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .navbar .buttons button {
+            background-color: transparent;
+            border: 1px solid #fff;
+            padding: 10px 20px;
+            color: #fff;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .navbar .buttons button:hover {
+            background-color: #fff;
+            color: #111;
+        }
+        .main-section {
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .main-section h1 {
+            font-size: 3em;
+            background: linear-gradient(90deg, #a100ff, #00d4ff);
+            
+        }
+        .main-section input {
+            padding: 15px;
+            width: 300px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .main-section button {
+            padding: 15px 30px;
+            background-color: #7a00ff;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+        }
+        .features-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .features-section h2 {
+            margin-bottom: 40px;
+        }
+        .features-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .feature-card {
+            background-color: #222;
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            border-radius: 10px;
+        }
+        .feature-card h3 {
+            margin-bottom: 10px;
+        }
+        .feature-card p {
+            margin-bottom: 20px;
+        }
+        .feature-card button {
+            background-color: #444;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        .pricing-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .pricing-container {
+            display: flex;
+            justify-content: center;
+        }
+        .pricing-card {
+            background-color: #222;
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            border-radius: 10px;
+            text-align: left;
+        }
+        .pricing-card h3 {
+            margin-bottom: 20px;
+        }
+        .pricing-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .pricing-card li {
+            margin-bottom: 10px;
+        }
+        .pricing-card button {
+            background-color: #7a00ff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+        }
+       
+        .footer {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+ 
+    <div class="navbar">
+        <div class="logo">
+            <a href="#">umso</a>
+        </div>
+        <div class="links">
+            <a href="#">Pricing</a>
+            <a href="#">Features</a>
+            <a href="#">Showcase</a>
+        </div>
+        <div class="buttons">
+            <button>Login</button>
+            <button>Sign Up</button>
+        </div>
+    </div>
+
+   
+    <div class="main-section">
+        <h1>Get your AI Generated Website In Seconds</h1>
+        <p>Give it a try right below, without having to sign up!</p>
+        <input type="text" placeholder="I need a website for my...">
+        <button>Generate </button>
+    </div>
+
+    
+    <div class="features-section">
+        <h2>Generating your website is just the start. With Umso you can go all the way.</h2>
+        <div class="features-container">
+            <div class="feature-card">
+                <h3>Analytics</h3>
+                <p>Monitor the performance of your startup and base decisions on data. Get website analytics with no extra setup.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="feature-card">
+                <h3>Custom Forms</h3>
+                <p>Build an audience for your startup. Collect leads directly within Umso, without any 3rd-party services.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="feature-card">
+                <h3>User Management</h3>
+                <p>Enable collaborative work by giving guests access to your sites, projects & other resources.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="feature-card">
+                <h3>Blogs</h3>
+                <p>Produce new content, extend your reach, start appearing on Google. Add a simple blog to your site with a few clicks.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="feature-card">
+                <h3>Cookie Solution</h3>
+                <p>Set up cookie banners that help you respect your visitor's privacy. This is especially important for Europe.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="feature-card">
+                <h3>Multilingual Sites</h3>
+                <p>Easily manage your website in multiple languages. With this feature you can offer your site to everyone.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </div>
+
+ 
+    <div class="pricing-section">
+        <h2>One Price for Everything</h2>
+        <p>The simplest pricing in the industry. You won't need a calculator for this.</p>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <h3>Pro - $20/month</h3>
+                <ul>
+                    <li>Custom Domains</li>
+                    <li>GDPR Solution</li>
+                    <li>Beautiful Site Design</li>
+                    <li>Super-Fast Hosting</li>
+                    <li>Analytics</li>
+                    <li>Custom Forms</li>
+                    <li>Blogging</li>
+                    <li>Password Protection</li>
+                    <li>Multilingual Sites</li>
+                    <li>User Management</li>
+                    <li>Unlimited Pages</li>
+                    <li>Unlimited Team Members</li>
+                </ul>
+                <button>Get Started</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Basic - Free</h3>
+                <ul>
+                    <li>Everything from Pro, except:</li>
+                    <li>No Custom Domains</li>
+                    <li>"Made with Umso" Branding</li>
+                </ul>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>&copy; 2024 Umso Software Inc.</p>
+        <div>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png" alt="Twitter" style="width:20px;"/></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn" style="width:20px;"/></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Instagram" style="width:20px;"/></a>
+        </div>
+    </div>
+</body>
+</html>
